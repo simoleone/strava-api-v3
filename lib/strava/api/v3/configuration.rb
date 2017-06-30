@@ -8,6 +8,7 @@ module Strava
 
         DEFAULT_ENDPOINT    = 'https://www.strava.com/api/v3/'
         DEFAULT_AUTH_ENDPOINT = 'https://www.strava.com/oauth/token'
+        DEFAULT_PUSH_SUBSCRIPTION_ENDPOINT = 'https://api.strava.com/api/v3/push_subscriptions'
         DEFAULT_METHOD      = :get
         DEFAULT_USER_AGENT  = "Strava API V3 Ruby Gem #{Strava::Api::V3::VERSION}".freeze
 
